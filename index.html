@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    
+    
+    <br>
+
+    <form action="logado.html" method="get">
+        <label for="name_user">Nome do usuário</label>
+        <input type="text" name="name_user" id="name_user" placeholder="Digite seu nome">
+
+        <br>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+
+        <br>
+
+        <label for="tel">Telefone</label>
+        <input type="tel" name="tel" id="tel" placeholder="Digite seu telefone">
+
+        <br>
+
+        <label for="age">Idade</label>
+        <input type="number" name="age" id="age" placeholder="Digite sua idade">
+
+        <br>
+
+        <label for="pass">Senha</label>
+        <input type="password" name="pass" id="pass" placeholder="Digite sua senha">
+
+        <br>
+
+        <label for="date">Data de hoje</label>
+        <input type="date" name="date" id="date">
+
+        <br>
+
+       <fieldset>
+        <legend>Filme</legend>
+        <input type="checkbox" name="filme" id="filme1" value="filme1">
+        Encantados
+        <input type="checkbox" name="filme" id="filme2" value="filme2">
+        Divertidamente
+        <input type="checkbox" name="filme" id="filme3" value="filme3">
+        Clube da luta
+       </fieldset>
+
+       <fieldset>
+       <legend>Genêro</legend>
+       <input type="radio" name="genero" id="branco" value="branco">
+       Branco
+       <input type="radio" name="genero" id="pardo" value="pardo">
+       Pardo
+       <input type="radio" name="genero" id="amarelo" value="amarelo">
+       Amarelo
+       <input type="radio" name="genero" id="negro" value="negro">
+       Negro
+       </fieldset>
+
+       <br>
+
+       <select name="materia" id="materia">
+        <option value="dispositivos">Dispositivos Moveis</option>
+        <option value="etica">Ética</option>
+        <option value="informatica">Informatica</option>
+       </select>
+
+       <br>
+
+       <label for="Mensagem">Duvida</label>
+       <textarea name="mensagem" id="mensagem" maxlength="100" placeholder="Digite sua dúvida"></textarea>
+       <button type="submit">Enviar</button>
+       <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
